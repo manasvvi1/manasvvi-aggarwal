@@ -32,5 +32,22 @@ body{
 }
 
 .font-large{
-  font-size: 3em;
+  font-size: 2em;
+}
+
+.a-hover-underline a:hover{
+  text-decoration: underline;
+}
+
+.float-right{
+  float: right;
+}
+
+button:hover, .hover-white:hover{
+  background-color: white;
+}
+
+input:focus{
+  outline: none !important;
+  box-shadow: 0 0 4px var(--primary-dark);
 }
